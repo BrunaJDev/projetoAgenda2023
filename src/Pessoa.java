@@ -34,16 +34,17 @@ public class Pessoa {
         this.email = email;
     }
 
-    //Função usada para chamar no outro metodo de exibir contados.
+    //Função usada para chamar no outro metodo de exibir contatos.
     public void Listar(){
-        System.out.println("Nome" + this.nome);
-        System.out.println("Numero:" + this.numeroTel);
+        System.out.println("Nome: " + this.nome);
+        System.out.println("Numero: " + this.numeroTel);
         System.out.println("Email: " + this.email);
+	System.out.println("");
     }
 
     public void Exibir1(){
-        System.out.println("Nome" + this.nome);
-        System.out.println("Numero:" + this.numeroTel);
+        System.out.println("Nome: " + this.nome);
+        System.out.println("Numero: " + this.numeroTel);
         System.out.println("Email: " + this.email);
     }
 

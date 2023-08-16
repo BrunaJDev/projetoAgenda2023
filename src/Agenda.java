@@ -18,7 +18,7 @@ public class Agenda{
     //Nisso, criei uma classe pessoa e instaciei um objeto dentro do Array.
     public void armazenarPessoa(Pessoa pessoa) {
         armazenarPessoa.add(pessoa);
-        System.out.println("Armazenado" + pessoa);}
+        System.out.println(pessoa.getNome() + " Armazenado(a)");}
 
     public void removerPessoa(String nome) {
         //Remove a pessoa e todos os seus dados do array, tendo como parametro o nome.
@@ -41,6 +41,7 @@ public class Agenda{
     public void imprimirAgenda() {
         //Imprime os dados de todas as pessoas;
         System.out.println("Lista de Contatos: "); //Para  novo Objeto da classe Pessoa dentro do array;
+	System.out.println("");
         for (Pessoa pessoa:armazenarPessoa) { //Exibe a lista
             pessoa.Listar();
         }
